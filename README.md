@@ -37,7 +37,6 @@ ccdecrypt-win.exe -s project0.jsc -d out.js -k c47d061a-f9a1-48 -z false
 
 ```
 npm install xxtea-node
-npm install unzip
 
 ```
 
