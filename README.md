@@ -13,23 +13,23 @@ projectZip.jsc 使用 c47d061a-f9a1-48 加密并启用zip压缩
 ### Git Bash
 带zip 解密
 ```
-./ccdecrypt-win.exe -s projectZip.jsc -d out -k c47d061a-f9a1-48 -z true
+./ccdecrypt2-win.exe -s projectZip.jsc -d out -k c47d061a-f9a1-48 -z true
 ```
 
 不带zip解密
 ```
-./ccdecrypt-win.exe -s project0.jsc -d out.js -k c47d061a-f9a1-48 -z false
+./ccdecrypt2-win.exe -s project0.jsc -d out.js -k c47d061a-f9a1-48 -z false
 ```
 
 ### CMD
 带zip 解密
 ```
-ccdecrypt-win.exe -s projectZip.jsc -d out -k c47d061a-f9a1-48 -z true
+ccdecrypt2-win.exe -s projectZip.jsc -d out -k c47d061a-f9a1-48 -z true
 ```
 
 不带zip解密
 ```
-ccdecrypt-win.exe -s project0.jsc -d out.js -k c47d061a-f9a1-48 -z false
+ccdecrypt2-win.exe -s project0.jsc -d out.js -k c47d061a-f9a1-48 -z false
 ```
 
 

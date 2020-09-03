@@ -45,6 +45,8 @@ while (i < process.argv.length) {
     }
 }
 
+console.log('arayinfree: start encrypt ~');
+
 if (!src) {
     console.log('--src path missing');
 }
@@ -59,7 +61,9 @@ if (!key || !dest || !src) {
     console.log('example     :  ccdecrypt-win.exe -s projectZip.js -d output.js -k yourkey');
     return;
 }
-
+console.log('src:' + src);
+console.log('dest:' + dest);
+console.log('key:' + key);
 
 let output = dest;
 if (dest.indexOf('.js') == -1) {
@@ -81,3 +85,5 @@ if (zip) {
     var decrypt_data = xxtea.toString(xxtea.decrypt(encrypt_data, xxtea.toBytes(key)));//not zip
     fs.writeFileSync(output, decrypt_data);
 }
+
+console.log('arayinfree: finish encrypt ~');

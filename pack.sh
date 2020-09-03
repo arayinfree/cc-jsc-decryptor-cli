@@ -1,1 +1,1 @@
-pkg index.js -t node12-linux-x64,node12-macos-x64,node12-win-x64 -o ccdecrypt
+pkg index.js -t node12-linux-x64,node12-macos-x64,node12-win-x64 -o ccdecrypt2
