@@ -57,8 +57,8 @@ if (!key) {
     console.log('--key yourKey missing');
 }
 if (!key || !dest || !src) {
+    console.log('example     :  ccdecrypt-win.exe -s projectZip.jsc -d output.js -k yourkey -z true');
     console.log('example     :  ccdecrypt-win.exe -s projectZip.jsc -d output.js -k yourkey');
-    console.log('example     :  ccdecrypt-win.exe -s projectZip.js -d output.js -k yourkey');
     return;
 }
 console.log('src:' + src);
